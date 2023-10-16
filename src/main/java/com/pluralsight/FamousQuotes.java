@@ -49,7 +49,7 @@ public class FamousQuotes {
     }
     public static void randomDisplay(){
         final Random rndm = new Random();
-        Integer rndmInt = rndm.nextInt(1,11);
+        Integer rndmInt = rndm.nextInt(0,10);
         System.out.println("Random Quote (#" + rndmInt +"): " + quotes[rndmInt] +"\n");
         anotherDisplay();
     }
